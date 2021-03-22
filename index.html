@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission Cyber</title>
+    <link rel = "stylesheet" href = "styles.css">
+
+    <script src = "script.js"></script>
+
+</head>
+<body>
+    
+    <div id = "welcome">
+        <h1>Mission Cyber</h1>
+        
+    </div>
+    
+
+    <div class="game">
+        <div id="character"></div>
+        <div id="block"></div>
+        <div id = "score">
+            <div id = "game-texts">
+                
+                <p class = "game-text" id ="game-text-1"></p>
+                <p class = "game-text" id = "game-text-2"> Welcome to Mission Cyber!</p>
+                <p class = "game-text" id = "game-text-3"></p>
+            </div>
+            
+            <div id = "navigation">
+                <button id = "back-button" onclick="navBack()">Back</button>
+                <button id = "next-button" onclick="navPlus()">Next</button>
+                <button id = "try-again" onclick = "tryAgain()">Try Again!</button>
+                
+
+            </div>
+            
+
+        </div>
+        <div id = "password-inputs">
+            <input type = "text" id = "password-test" maxlength = "20"> 
+
+            <input type = "submit" Value = "Submit" id = "SubmitButton" onclick="getPassScore()">
+
+        </div>
+
+        
+
+        
+    </div>
+    
+
+
+    
+</body>
+
+
+</html>
+

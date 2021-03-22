@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    
+}
+
+
+body{
+    background-color: #6666ff;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+#welcome
+{
+    font-family: monospace;
+    text-align: center;
+    color: #FFC656;
+    
+    
+}
+img{
+    object-fit: fill;
+   
+}
+
+.game{
+    background-image: url("space-background.jpeg");
+    
+}
+button{
+    visibility: visible;
+    background-color: #FF5A9E;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    height: 45px;
+    width: 70px;
+    font-size: 20px;
+    
+}
+.game-text
+{
+    color: #FF5A9E;
+    font-family: monospace;
+    font-size: 40px;
+    visibility: visible;
+}
+
+
+.game{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+}
+p{
+    text-align: center;
+}
+
+
+
+#game-text-2{
+    visibility: visible;
+    
+}
+
+#navigation{
+    font-size: 40px;
+    margin: 30px;
+    padding: 20px;
+    padding-left: 300px;
+    
+}
+
+
+#SubmitButton{
+    background-color: #FF5A9E;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    margin-left:45%;
+}
+
+#password-test{
+    display: none;
+    margin-left: 37%;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    
+}
+
+#SubmitButton{
+    display:none;
+}
+
+#try-again{
+    display: none;
+    width: 200px;
+    margin-left: -5%;
+    margin-top:30px;
+}
+
+#password-inputs{
+    margin-top: 50px;
+    display: none;
+}
+
+#game-text-1{
+    margin-top: 20px;
+}
