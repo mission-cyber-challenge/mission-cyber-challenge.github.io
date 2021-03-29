@@ -218,12 +218,13 @@ function calculateScore(password)
         
     score = password.length * multiplier;
     
-    if (components == 5)
+    if (score > 1500)
         strength = "Strong";
-    else if (components <3)
-        strength = "Weak";
-    else
+    else if (score > 900)
         strength = "Medium";
+    else
+        strength = "Weak";
+
 
 
 }
