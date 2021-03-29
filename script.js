@@ -218,9 +218,9 @@ function calculateScore(password)
         
     score = password.length * multiplier;
     
-    if (score > 1500)
+   if (score > 1000)
         strength = "Strong";
-    else if (score > 900)
+    else if (score > 700)
         strength = "Medium";
     else
         strength = "Weak";
@@ -233,7 +233,7 @@ function calculateScore(password)
 var result = ""
 function passTest()
 {
-    if (score > 500)
+    if (score > 1000)
         result = "Your password was strong enough to keep enemies out!";
     else 
         result = "Looks like your password wasn't strong enough...";
