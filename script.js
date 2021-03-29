@@ -217,14 +217,14 @@ function calculateScore(password)
         components++;
         
     score = password.length * multiplier;
-    console.log(components);
-   if (components == 5)
+    
+    
+    if (components == 5)
         strength = "Strong";
     else if (components > 2)
         strength = "Medium";
     else
         strength = "Weak";
-
 
 
 }
